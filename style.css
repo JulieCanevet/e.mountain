@@ -1,0 +1,217 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  font-family: Quicksand;
+}
+ /* image du header*/
+header img
+{
+  width: 100%;
+}
+
+/* menu horizontal*/
+
+nav
+{
+  display: inline-block;
+  width: 100%;
+  margin: auto;
+}
+
+nav li
+{
+  display: inline-block;
+  list-style-type: none;
+  background-color: #DCDCDC;
+  height: 24px;
+  margin:auto;
+}
+
+/* mise en forme des liens dans le menu */
+nav a
+{
+  padding: 5em;
+  text-decoration: none;
+  color: #696969;
+  padding-left: 5em;
+
+}
+
+/* centrer le menu horizontal */
+ section ul
+ {
+   text-align: center;
+ }
+
+/* Barre de recherche */
+aside input
+{
+  width: 350px;
+  height: 24px;
+  background:white;
+  text-align: left;
+  font-size: 15px;
+  padding-left: 1em;
+  margin-left: 1em;
+  margin-top: 1em;
+  border-color: #696969;
+}
+
+/*
+------  Contenu page 1 = page d'accueil-------
+ */
+
+/* Titre "nos différents produits" */
+.page1 p
+{
+  text-align: center;
+  padding-top: 1em;
+  font-size: 30px;
+}
+ /* Images des fiches produit*/
+.page1 img
+{
+  display: inline-block;
+  margin-top: 3em;
+  margin-left: 2em;
+  text-align: center;
+  border: 4px solid black;
+}
+
+/*
+------  Fin de page 1 fin de la page d'accueil  -------
+*/
+
+
+/*
+-----   Contenu page 2 = page produits -------------
+*/
+
+/* Taille du titre */
+.page2 p
+{
+  font-size: 30px;
+}
+
+/* images de la page 2 */
+.page2 img
+{
+  display: block;
+  margin-top: 3em;
+  margin-left: 2em;
+  text-align: left;
+  border: 4px solid black;
+}
+
+/*
+-------   fin de la page 2 = fin de la page produit ----
+*/
+
+/*
+-------- Contenu page 3 = page contact ---------
+*/
+
+/* mise en page du texte*/
+.pagecontact p
+{
+  text-align: center;
+  margin-top: 2em;
+}
+
+.pagecontact
+{
+  margin: 4em auto auto auto;
+}
+
+/* mise en page des traits de séparation */
+.pagecontact hr{
+  border: solid 1px grey;
+  width: 400px;
+  position: relative;
+  margin: 2em auto 2em auto;
+}
+
+/*
+------------ Fin de la page 3 contact ----------
+*/
+
+/*
+-----------      Contenu page 4 = page "qui sommes nous ?"  --------
+*/
+.page4 .title
+{
+  font-size: 30px;
+  margin-top: 3em;
+  margin-left: 2em;
+}
+
+.page4 .simple
+{
+  text-align: center;
+  margin-top: 3em;
+}
+
+.page4 hr{
+  border: solid 1px grey;
+  width: 400px;
+  position: relative;
+  margin: 2em auto 2em auto;
+}
+
+iframe
+{
+  margin-left: 25%;
+}
+/*
+-----------   Fin de la page 4 = page "qui sommes nous ?"  --------
+*/
+
+/*
+--------------   footer     -------------
+*/
+
+/*Texte du footer*/
+footer ul li a{
+  color: #696969;
+  text-decoration: none;
+  padding-top: 5em;
+}
+
+/*Texte du footer au passage de la souris*/
+footer ul li a:hover{
+  color:#4286f4;
+}
+
+/*Logo dans le footer*/
+#logo_footer{
+  margin-left: 180px;
+  margin-top: 20px;
+}
+
+/*Menu footer partie gauche*/
+#menu_footer_left{
+  list-style-type: none;
+  float: left;
+  margin-left: 1em;
+  padding-left: 1em;
+  text-align: left;
+  padding-top: 0.5em;
+}
+
+/*Menu footer partie droite*/
+#menu_footer_right{
+  list-style-type: none;
+  float: right;
+  margin-right: 1em;
+  padding-right: 1em;
+  text-align: right;
+  padding-top: 0.5em;
+}
+
+/*Espace et couleur du footer*/
+footer{
+  background-color: #DCDCDC;
+  height:80px;
+  margin-top: 5em;
+}
