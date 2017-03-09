@@ -112,6 +112,11 @@ aside input
   height: 240;
 }
 
+.page2 p
+{
+  display: block;
+}
+
 /*
 -------   fin de la page 2 = fin de la page produit ----
 */
