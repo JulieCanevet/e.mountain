@@ -92,6 +92,8 @@ aside input
 .page2 p
 {
   font-size: 30px;
+  margin-left: 1em;
+  margin-top: 1em;
 }
 
 /* images de la page 2 */
@@ -102,6 +104,12 @@ aside input
   margin-left: 2em;
   text-align: left;
   border: 4px solid black;
+}
+
+.page2 a img
+{
+  width: 475px;
+  height: 240;
 }
 
 /*
@@ -186,7 +194,10 @@ footer ul li a:hover{
 /*Logo dans le footer*/
 #logo_footer{
   margin-left: 180px;
-  margin-top: 20px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  width: 60px;
+  height: 60px;
 }
 
 /*Menu footer partie gauche*/
