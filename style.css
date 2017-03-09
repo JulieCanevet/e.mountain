@@ -97,29 +97,15 @@ h1
 }
 
 /* images de la page 2 */
-/*image application cartographie*/
-.bloc1
+/*images + textes applications*/
+.bloc1, .bloc2, .bloc3
 {
   display: inline-block;
   margin-top: 3em;
   margin-left: 2em;
 }
 
-.bloc2
-{
-  display: inline-block;
-  margin-top: 3em;
-  margin-left: 2em;
-}
-
-.bloc3
-{
-  display: inline-block;
-  margin-top: 3em;
-  margin-left: 2em;
-
-}
-
+/*textes description des applications */
 .page2 p
 {
     text-align: center;
@@ -127,6 +113,7 @@ h1
     padding-top: 5em;
 }
 
+/* images des applications*/
 article img
 {
   float: left;
@@ -136,6 +123,7 @@ article img
   height: 240;
 }
 
+/* Titres des applications */
 h3
 {
   text-align: left;
